@@ -1,6 +1,6 @@
 ![BitFinance logo — right half circle with dotted left circle](/public/img/readme-header.svg)
 
-# Welcome to [BitFinance](https://bitfinance.solutions)!
+# Welcome to [BitFinance Staking Dashboard](https://bitfinance.solutions)!
 
 
 👋 Welcome to BitFinance staking dashboard. We're making staking accessible for everyone. This is the repo for the BitFinance Staking web app.
