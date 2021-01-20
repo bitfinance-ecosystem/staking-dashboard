@@ -1,6 +1,6 @@
 {
-  "appId": "org.lunie.lunie",
-  "appName": "Lunie",
+  "appId": "solutions.bitfinance",
+  "appName": "bitfinance",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "dist"

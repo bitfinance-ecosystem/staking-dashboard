@@ -3,12 +3,16 @@
 #### In appengine folder
 
 ```
+npm install
+
 npm run dev
 ```
 
 #### In frontend folder
 
 ```
+npm install
+
 npm run serve
 ```
 
