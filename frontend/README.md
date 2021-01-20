@@ -1,20 +1,17 @@
-![Lunie logo — right half circle with dotted left circle](/public/img/readme-header.svg)
+![BitFinance logo — right half circle with dotted left circle](/public/img/readme-header.svg)
 
-# Welcome to [Lunie.io](https://lunie.io)!
+# Welcome to [BitFinance](https://bitfinance.solutions)!
 
-[![CircleCI](https://circleci.com/gh/luniehq/lunie/tree/develop.svg?style=svg)](https://circleci.com/gh/luniehq/lunie/tree/develop)
-[![codecov](https://codecov.io/gh/luniehq/lunie/branch/develop/graph/badge.svg)](https://codecov.io/gh/luniehq/lunie)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-👋 Welcome to Lunie. We're making staking accessible for everyone. This is the repo for the Lunie web app.
+👋 Welcome to BitFinance staking dashboard. We're making staking accessible for everyone. This is the repo for the BitFinance Staking web app.
 
 ## Development Dependencies
 
-Install the following dependencies if you wish to run lunie on developer mode or [contribute](https://github.com/luniehq/lunie/blob/develop/CONTRIBUTING.md).
+Install the following dependencies if you wish to run lunie on developer mode or [contribute](https://github.com/bitfinance-ecosystem/staking-dashboard/blob/develop/CONTRIBUTING.md).
 
 ### Node
 
-Lunie requires Node.js `>=10.13.0`. If you have a different version of Node.js installed, you can use `n` to install the correct version. The following command will use `n` to install it alongside your current version of Node.js.
+BitFinance Staking requires Node.js `>=10.13.0`. If you have a different version of Node.js installed, you can use `n` to install the correct version. The following command will use `n` to install it alongside your current version of Node.js.
 
 ```bash
 npm i -g n && n 10.13.0
@@ -22,15 +19,15 @@ npm i -g n && n 10.13.0
 
 ### Yarn
 
-Yarn is a JS package manager we use to manage Lunie's dependencies. Download it [here](https://yarnpkg.com/lang/en/docs/install).
+Yarn is a JS package manager we use to manage BitFinance's staking dashboard dependencies. Download it [here](https://yarnpkg.com/lang/en/docs/install).
 
 ### Docker
 
-To run a local tesnet for Lunie you will need [Docker](https://www.docker.com/) installed. You can download it [here](https://www.docker.com/get-docker).
+To run a local tesnet for staking dashboard you will need [Docker](https://www.docker.com/) installed. You can download it [here](https://www.docker.com/get-docker).
 
 ### Docker compose
 
-To build the SSL certificates needed by Lunie you also will need [Docker Compose](https://docs.docker.com/compose/) installed. You can find installation instructions for your platform [here](https://docs.docker.com/compose/install/).
+To build the SSL certificates needed by staking dashboard you also will need [Docker Compose](https://docs.docker.com/compose/) installed. You can find installation instructions for your platform [here](https://docs.docker.com/compose/install/).
 
 ### Ledger Cosmos App
 
@@ -48,14 +45,14 @@ Lunie supports sending transactions through the `Cosmos` app for [Ledger Nano](h
 With Node, Yarn and Docker installed, you're ready to check out the source code:
 
 ```bash
-git clone https://github.com/luniehq/lunie.git
+git clone https://github.com/bitfinance-ecosystem/staking-dashboard.git
 cd lunie
 yarn install
 ```
 
 ---
 
-## Lunie Development
+## BitFinance Staking Dashboard Development
 
 ### Generate SSL certificates
 
@@ -73,7 +70,7 @@ You can simply start a docker based testnet and the frontend.
 yarn start
 ```
 
-This will create a rich account. You need to import that account into Lunie:
+This will create a rich account. You need to import that account into BitFinance staking dashboard:
 - Sign In
 - Import Account
 - Use mnemonic: `release endorse scale across absurd trouble climb unaware actor elite fantasy chair license word rare length business kiss smoke tackle report february bid ginger`
@@ -82,7 +79,7 @@ You should now have a bunch of stake to play with.
 
 ### Deploy
 
-Create the bundle to deploy Lunie you can run:
+Create the bundle to deploy BitFinance staking dashboard you can run:
 
 ```bash
 yarn build
@@ -104,7 +101,7 @@ Dependencies:
 
 You will probably also want a virtual Android device which you can create from inside the Android Studio.
 
-To run the Android version of Lunie in development:
+To run the Android version of BitFinance Staking in development:
 
 ```bash
 $ yarn build
@@ -119,7 +116,7 @@ Dependencies:
 - [Cocoapods](https://guides.cocoapods.org/using/getting-started.html#installation)
 
 To open Lunie in Xcode: 
-1. Build Lunie
+1. Build BitFinance staking app
 ```bash
 $ yarn build
 ```
@@ -129,16 +126,16 @@ $ yarn build
 $ npx @capacitor/cli sync ios
 ```
 
-3. This will open Xcode with Lunie loaded
+3. This will open Xcode with BitFinance staking app loaded
 ```bash
 $ npx @capacitor/cli open ios
 ```
 
-Once Xcode is open, just click the Play button to run Lunie on your preferred Simulator or Device.
+Once Xcode is open, just click the Play button to run BitFinance staking app on your preferred Simulator or Device.
 
 ## Release
 
-Lunie has a automated release process. Every night the CI creates a new release PR. To release manually, run
+BitFinance staking app has a automated release process. Every night the CI creates a new release PR. To release manually, run
 
 ```bash
 yarn release
