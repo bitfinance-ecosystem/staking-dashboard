@@ -1,8 +1,8 @@
 {
-  "name": "lunie",
+  "name": "bitfinance",
   "version": "1.0.0-beta.128",
-  "description": "Lunie is the staking and governance platform for proof-of-stake blockchains.",
-  "author": "Lunie International Software Systems Inc. <hello@lunie.io>",
+  "description": "BitFinance is the staking and governance platform for proof-of-stake blockchains.",
+  "author": "BitFinance Decentralized Finance Inc. <info@bitfinance.solutions>",
   "scripts": {
     "serve": "kill-port 9080 && vue-cli-service serve --port 9080",
     "build": "vue-cli-service build",
@@ -130,12 +130,12 @@
   "engines": {
     "node": ">=10.13.0"
   },
-  "homepage": "https://lunie.io",
+  "homepage": "https://bitfinance.solutions",
   "license": "Apache-2.0",
   "productName": "lunie",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luniehq/lunie.git"
+    "url": "git+https://github.com/bitfinance-ecosystem/staking-dashboard.git"
   },
   "resolutions": {
     "braces": ">=2.3.1"
