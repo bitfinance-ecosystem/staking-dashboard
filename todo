@@ -1,0 +1,31 @@
+# To-do
+A BitFinance Ecosystem & Blockchain Developments todo list app built in HTML, Node.js, CSS and JavaScript.
+
+
+## Functionalities
+
+- To Develop BitFinance sharding protocol with a trustless Ethereum bridge. 
+ 
+- BitFinance use Ethereum tooling such as Solidity and Ether.js. Users use Metamask to store and they use our bridge to swap BitFinance, Harmony and Ethereum assets. We achieve 2-second finality for fast transactions and support 1000 delegating stakers for secure shards. 
+A cross-chain Uniswap port is already live on our mainnet. Similar to layer 2 protocols.
+
+- To make BitFinance fully interoperable with the Harmony One/Ethereum ecosystem.
+
+
+## Blockchain-node
+
+- @bitfinance.js/core
+- @bitfinance.js/smartcontracts
+
+## Token/coin
+
+- BitFinance token economy
+- Smart Contract
+
+## Whitepaper
+
+Decentralized Finance Applications
+
+## License
+[MIT](LICENSE.md) © 2021 [BitFinance](https://bitfinance.solutions)
+
